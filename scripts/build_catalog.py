@@ -38,7 +38,7 @@ OUT = ROOT / "data" / "repos.json"
 CATALOG_REPO = f"{OWNER}.github.io"
 
 CATEGORIES = ["AI & agents", "Data platforms", "Infra & ops", "Apps", "Sites & writing", "Learning", "Other"]
-MODEL = "claude-opus-5-5"
+MODEL = "claude-haiku-5-5"
 DESC_MAX = 350  # GitHub's limit on repo descriptions
 
 
@@ -132,11 +132,9 @@ def refresh_identity_token() -> None:
 
 def summarize(client, repo: dict, text: str, files: list[str]) -> dict | None:
     refresh_identity_token()
-    response = client.beta.messages.create(
+    response = client.messages.create(
         model=MODEL,
         max_tokens=4000,
-        betas=["server-side-fallback-2026-07-01"],
-        fallbacks="default",
         output_config={"effort": "low", "format": {"type": "json_schema", "schema": SCHEMA}},
         messages=[{
             "role": "user",
