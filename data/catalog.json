@@ -16,7 +16,8 @@
     "readme_sha": "3887a35beb58d8b8c465e1c103dd86624e42bb74"
   },
   "ai-prism": {
-    "readme_sha": "8edce653a3a2b46475afa1bce7996e511a415d46"
+    "readme_sha": "8edce653a3a2b46475afa1bce7996e511a415d46",
+    "category": "Sites & writing"
   },
   "apache-datafusion-tryouts": {
     "category": "Data platforms",
