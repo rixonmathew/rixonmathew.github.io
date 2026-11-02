@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  id-token: write   # lets the job get a GitHub OIDC token for Claude (Workload Identity Federation)
 
 concurrency:
   group: catalog
@@ -20,11 +21,17 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.13"
-      - run: pip install --quiet anthropic
+      - run: pip install --quiet --upgrade anthropic
       - name: Build catalog
         env:
           GH_TOKEN: ${{ secrets.CATALOG_TOKEN }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Claude via Workload Identity Federation: no API key. These IDs are not secrets.
+          # The script fetches a fresh GitHub OIDC token into the file before each Claude call.
+          ANTHROPIC_FEDERATION_RULE_ID: ${{ vars.ANTHROPIC_FEDERATION_RULE_ID }}
+          ANTHROPIC_ORGANIZATION_ID: ${{ vars.ANTHROPIC_ORGANIZATION_ID }}
+          ANTHROPIC_SERVICE_ACCOUNT_ID: ${{ vars.ANTHROPIC_SERVICE_ACCOUNT_ID }}
+          ANTHROPIC_WORKSPACE_ID: ${{ vars.ANTHROPIC_WORKSPACE_ID }}
+          ANTHROPIC_IDENTITY_TOKEN_FILE: ${{ runner.temp }}/gha-oidc-jwt
         run: python scripts/build_catalog.py
       - name: Commit if anything changed
         run: |

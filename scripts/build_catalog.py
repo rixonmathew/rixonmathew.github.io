@@ -8,8 +8,11 @@ description by hand.
 Env:
   GH_TOKEN            token that can read OWNER's private repos (and edit their
                       descriptions, for write-back)
-  ANTHROPIC_API_KEY   optional; without it, new or changed repos keep their
-                      GitHub description and no summary is generated
+  Claude credentials  optional; without them, new or changed repos keep their
+                      GitHub description and no summary is generated. In GitHub
+                      Actions this uses Workload Identity Federation (the
+                      ANTHROPIC_FEDERATION_* / ANTHROPIC_IDENTITY_TOKEN_FILE vars);
+                      locally, ANTHROPIC_API_KEY also works
   OWNER               defaults to rixonmathew
   WRITE_DESCRIPTIONS  "1" (default) to PATCH descriptions on GitHub, "0" to only report
 """
@@ -19,6 +22,7 @@ from __future__ import annotations
 import base64
 import json
 import os
+import re
 import sys
 import urllib.error
 import urllib.request
@@ -111,7 +115,23 @@ README (may be truncated):
 {readme}"""
 
 
+def refresh_identity_token() -> None:
+    """In GitHub Actions, write a fresh OIDC token for the SDK's federation exchange.
+
+    GitHub's tokens live about 5 minutes and Anthropic rejects a reused one, so a
+    token fetched once at the start of the job can't cover a later refresh.
+    """
+    url, bearer = os.environ.get("ACTIONS_ID_TOKEN_REQUEST_URL"), os.environ.get("ACTIONS_ID_TOKEN_REQUEST_TOKEN")
+    path = os.environ.get("ANTHROPIC_IDENTITY_TOKEN_FILE")
+    if not (url and bearer and path):
+        return
+    req = urllib.request.Request(f"{url}&audience=https://api.anthropic.com", headers={"Authorization": f"Bearer {bearer}"})
+    with urllib.request.urlopen(req) as r:
+        Path(path).write_text(json.load(r)["value"])
+
+
 def summarize(client, repo: dict, text: str, files: list[str]) -> dict | None:
+    refresh_identity_token()
     response = client.beta.messages.create(
         model=MODEL,
         max_tokens=4000,
@@ -132,7 +152,9 @@ def summarize(client, repo: dict, text: str, files: list[str]) -> dict | None:
         print(f"  refused: {repo['name']}", file=sys.stderr)
         return None
     out = json.loads(next(b.text for b in response.content if b.type == "text"))
-    out["summary"] = out["summary"].strip()[:DESC_MAX]
+    # README text is untrusted input: keep links and markup out of a public description.
+    summary = re.sub(r"https?://\S+|<[^>]*>", "", out["summary"])
+    out["summary"] = re.sub(r"\s+", " ", summary).strip()[:DESC_MAX]
     return out
 
 
@@ -150,7 +172,7 @@ def status(repo: dict, summary: str, text: str, now: datetime) -> str:
 def main() -> None:
     cache: dict = json.loads(CACHE.read_text()) if CACHE.exists() else {}
     client = None
-    if os.environ.get("ANTHROPIC_API_KEY"):
+    if os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("ANTHROPIC_FEDERATION_RULE_ID"):
         import anthropic
         client = anthropic.Anthropic()
 
@@ -161,12 +183,13 @@ def main() -> None:
         name, desc = repo["name"], (repo["description"] or "").strip()
         entry = cache.setdefault(name, {})
         sha, text = readme(name)
-        hand_written = bool(desc) and desc != entry.get("written_description")
+        ours = {entry.get("written_description"), entry.get("summary")} - {None}
+        hand_written = bool(desc) and desc not in ours
 
         first_sight = "readme_sha" not in entry  # seeded entries just record the sha
         changed = not first_sight and entry.get("readme_sha") != sha
         needs = (not entry.get("category")) or changed or (not hand_written and not entry.get("summary"))
-        if needs and client:
+        if needs and client and not repo["fork"]:  # forks carry someone else's README
             print(f"summarizing {name}", file=sys.stderr)
             got = summarize(client, repo, text, [] if sha else root_files(name))
             if got:
@@ -177,10 +200,19 @@ def main() -> None:
 
         summary = desc if hand_written else (entry.get("summary") or desc)
         if not hand_written and entry.get("summary") and desc != entry["summary"]:
-            wrote.append((name, desc, entry["summary"]))
-            if WRITE:
-                gh(f"/repos/{OWNER}/{name}", "PATCH", {"description": entry["summary"]})
-                entry["written_description"] = entry["summary"]
+            if repo["archived"]:
+                pass  # GitHub-archived repos are read-only; the catalog still shows the summary
+            elif WRITE:
+                try:
+                    gh(f"/repos/{OWNER}/{name}", "PATCH", {"description": entry["summary"]})
+                    entry["written_description"] = entry["summary"]
+                    wrote.append((name, desc, entry["summary"]))
+                except urllib.error.HTTPError as e:
+                    print(f"  could not update {name}: HTTP {e.code}", file=sys.stderr)
+            else:
+                wrote.append((name, desc, entry["summary"]))
+        elif desc and desc == entry.get("summary"):
+            entry["written_description"] = desc
 
         rows.append({
             "name": name,
