@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rixon's Projects</title>
+<meta name="description" content="Every repo Rixon Mathew is working on or has tried out, what each one is for, and which ones need a follow-up.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect width='16' height='16' rx='3' fill='%232f5d50'/><path d='M4 4h8M4 8h8M4 12h5' stroke='white' stroke-width='1.6' stroke-linecap='round'/></svg>">
+<style>
+:root {
+  --bg: #f7f6f2; --surface: #ffffff; --ink: #1d1f1e; --muted: #5f6662; --line: #e3e1da;
+  --accent: #2f5d50; --accent-soft: #e4eee9;
+  --active: #2f7d4f; --cooling: #a8761c; --dormant: #b0453a; --archived: #7a7f7c;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #141615; --surface: #1c1f1e; --ink: #e8eae8; --muted: #9aa29e; --line: #2e3331;
+    --accent: #7fc0a9; --accent-soft: #23302b;
+    --active: #6cc58f; --cooling: #e0ad55; --dormant: #ec8a7e; --archived: #8e9592;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #141615; --surface: #1c1f1e; --ink: #e8eae8; --muted: #9aa29e; --line: #2e3331;
+  --accent: #7fc0a9; --accent-soft: #23302b;
+  --active: #6cc58f; --cooling: #e0ad55; --dormant: #ec8a7e; --archived: #8e9592;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
+main { max-width: 1080px; margin: 0 auto; padding: 32px 16px 64px; }
+h1 { font-size: 26px; margin: 0 0 4px; letter-spacing: -0.01em; }
+h2 { font-size: 15px; margin: 32px 0 10px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+.sub { color: var(--muted); margin: 0 0 20px; }
+a { color: var(--accent); }
+.stats { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 20px; }
+.stat { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; min-width: 96px; }
+.stat b { display: block; font-size: 20px; font-variant-numeric: tabular-nums; }
+.stat span { color: var(--muted); font-size: 13px; }
+.controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 8px; }
+input[type=search] { flex: 1 1 240px; padding: 9px 12px; font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; }
+select { padding: 8px 10px; font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 8px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 4px; }
+.chip { border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 999px; padding: 4px 12px; font: inherit; font-size: 13px; cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--bg); }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.card h3 { margin: 0; font-size: 16px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.card h3 a { color: var(--ink); text-decoration: none; overflow-wrap: anywhere; }
+.card h3 a:hover { text-decoration: underline; }
+.card p { margin: 0; color: var(--ink); }
+.meta { color: var(--muted); font-size: 13px; display: flex; flex-wrap: wrap; gap: 4px 12px; }
+.commit { color: var(--muted); font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.badge { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; padding: 1px 7px; border-radius: 999px; border: 1px solid currentColor; }
+.s-active { color: var(--active); } .s-cooling { color: var(--cooling); } .s-dormant { color: var(--dormant); } .s-archived { color: var(--archived); }
+.lock { color: var(--muted); font-size: 12px; }
+.empty { color: var(--muted); padding: 24px 0; }
+footer { margin-top: 40px; color: var(--muted); font-size: 13px; }
+.theme { margin-left: auto; }
+</style>
+</head>
+<body>
+<main>
+  <div class="controls" style="margin-bottom:0">
+    <div>
+      <h1>Rixon's Projects</h1>
+      <p class="sub">Every repo, what it's for, and which ones are waiting on a follow-up.</p>
+    </div>
+    <select class="theme" id="theme" aria-label="Theme">
+      <option value="">Auto theme</option><option value="light">Light</option><option value="dark">Dark</option>
+    </select>
+  </div>
+
+  <div class="stats" id="stats"></div>
+
+  <h2>Needs a follow-up</h2>
+  <p class="sub" style="margin-top:-4px">Not archived, and no push in the last 30 days, oldest first.</p>
+  <div class="grid" id="followup"></div>
+
+  <h2>All projects</h2>
+  <div class="controls">
+    <input type="search" id="q" placeholder="Search names, summaries, languages…" aria-label="Search">
+    <select id="status" aria-label="Status">
+      <option value="">Any status</option>
+      <option value="active">Active (≤30 days)</option>
+      <option value="cooling">Cooling (31–90 days)</option>
+      <option value="dormant">Dormant (90+ days)</option>
+      <option value="archived">Archived</option>
+    </select>
+    <select id="sort" aria-label="Sort">
+      <option value="pushed">Recently pushed</option>
+      <option value="name">Name</option>
+      <option value="created">Newest first</option>
+    </select>
+  </div>
+  <div class="chips" id="cats"></div>
+  <div class="grid" id="all"></div>
+
+  <footer id="foot"></footer>
+</main>
+<script>
+(() => {
+  const $ = (id) => document.getElementById(id);
+  const DAY = 86400000;
+  const state = { q: "", status: "", sort: "pushed", cat: "" };
+
+  try { const t = localStorage.getItem("theme"); if (t) { document.documentElement.dataset.theme = t; $("theme").value = t; } } catch (e) {}
+  $("theme").addEventListener("change", (e) => {
+    const v = e.target.value;
+    if (v) document.documentElement.dataset.theme = v; else delete document.documentElement.dataset.theme;
+    try { v ? localStorage.setItem("theme", v) : localStorage.removeItem("theme"); } catch (e) {}
+  });
+
+  const ago = (iso) => {
+    const d = Math.floor((Date.now() - new Date(iso)) / DAY);
+    if (d < 1) return "today";
+    if (d < 2) return "yesterday";
+    if (d < 60) return d + " days ago";
+    if (d < 730) return Math.round(d / 30) + " months ago";
+    return Math.round(d / 365) + " years ago";
+  };
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+  const card = (r) => `
+    <article class="card">
+      <h3><a href="${esc(r.url)}">${esc(r.name)}</a>
+        <span class="badge s-${r.status}">${r.status}</span>
+        ${r.private ? '<span class="lock" title="Private repo">private</span>' : ""}</h3>
+      <p>${esc(r.summary) || '<span class="lock">No description yet.</span>'}</p>
+      ${r.last_commit?.message ? `<div class="commit" title="${esc(r.last_commit.message)}">↳ ${esc(r.last_commit.message)}</div>` : ""}
+      <div class="meta">
+        <span>${esc(r.category)}</span>
+        ${r.language ? `<span>${esc(r.language)}</span>` : ""}
+        <span title="${esc(r.pushed_at)}">pushed ${ago(r.pushed_at)}</span>
+        ${r.homepage ? `<a href="${esc(r.homepage)}">site</a>` : ""}
+      </div>
+    </article>`;
+
+  fetch("data/repos.json", { cache: "no-cache" }).then((r) => r.json()).then((data) => {
+    const repos = data.repos;
+    const count = (s) => repos.filter((r) => r.status === s).length;
+    $("stats").innerHTML = [
+      [repos.length, "repos"], [count("active"), "active"], [count("cooling"), "cooling"],
+      [count("dormant"), "dormant"], [count("archived"), "archived"],
+    ].map(([n, l]) => `<div class="stat"><b>${n}</b><span>${l}</span></div>`).join("");
+
+    const follow = repos.filter((r) => r.status === "cooling" || r.status === "dormant")
+      .sort((a, b) => a.pushed_at.localeCompare(b.pushed_at));
+    $("followup").innerHTML = follow.length ? follow.map(card).join("") : '<p class="empty">Nothing waiting. Everything has moved in the last 30 days.</p>';
+
+    const cats = [...new Set(repos.map((r) => r.category))].sort();
+    const drawChips = () => {
+      $("cats").innerHTML = ["", ...cats].map((c) =>
+        `<button class="chip" data-cat="${esc(c)}" aria-pressed="${state.cat === c}">${c ? esc(c) + " · " + repos.filter((r) => r.category === c).length : "All"}</button>`).join("");
+    };
+    $("cats").addEventListener("click", (e) => {
+      const b = e.target.closest(".chip"); if (!b) return;
+      state.cat = b.dataset.cat; drawChips(); draw();
+    });
+
+    const draw = () => {
+      const q = state.q.toLowerCase();
+      let list = repos.filter((r) =>
+        (!state.cat || r.category === state.cat) &&
+        (!state.status || r.status === state.status) &&
+        (!q || [r.name, r.summary, r.language, r.category, ...(r.topics || [])].join(" ").toLowerCase().includes(q)));
+      list.sort(state.sort === "name" ? (a, b) => a.name.localeCompare(b.name)
+        : state.sort === "created" ? (a, b) => b.created_at.localeCompare(a.created_at)
+        : (a, b) => b.pushed_at.localeCompare(a.pushed_at));
+      $("all").innerHTML = list.length ? list.map(card).join("") : '<p class="empty">No repos match.</p>';
+    };
+    $("q").addEventListener("input", (e) => { state.q = e.target.value; draw(); });
+    $("status").addEventListener("change", (e) => { state.status = e.target.value; draw(); });
+    $("sort").addEventListener("change", (e) => { state.sort = e.target.value; draw(); });
+
+    drawChips(); draw();
+    $("foot").innerHTML = `Catalog of <a href="https://github.com/${esc(data.owner)}">github.com/${esc(data.owner)}</a>, rebuilt daily and on demand. Last rebuilt ${ago(data.generated_at)} (${esc(data.generated_at)}).`;
+  }).catch(() => { $("all").innerHTML = '<p class="empty">Could not load data/repos.json.</p>'; });
+})();
+</script>
+</body>
+</html>

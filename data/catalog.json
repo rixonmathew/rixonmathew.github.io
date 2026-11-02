@@ -1,0 +1,199 @@
+{
+  "agent-framework-tryouts": {
+    "category": "AI & agents",
+    "summary": "Guide comparing agent orchestration frameworks: a LangGraph deep dive plus evaluations of PydanticAI, CrewAI and AutoGen (AG2).",
+    "readme_sha": "81c1b3dd6784953b4a4e2ef8dbe928b27b3812b1"
+  },
+  "agent-software-factory-tryouts": {
+    "category": "AI & agents",
+    "summary": "NexusFactory: agent-agnostic software factory that runs AI agents across an 8-stage SDLC, with simulated tracker, chat, git and environments.",
+    "readme_sha": "7771acd962a7bc63b5035f7fdb05334ac1577cdb"
+  },
+  "agent-substrate-tryouts": {
+    "category": "AI & agents",
+    "readme_sha": "3887a35beb58d8b8c465e1c103dd86624e42bb74"
+  },
+  "ai-prism": {
+    "category": "Sites & writing",
+    "readme_sha": "8edce653a3a2b46475afa1bce7996e511a415d46"
+  },
+  "apache-datafusion-tryouts": {
+    "category": "Data platforms",
+    "summary": "Apache DataFusion deep dive with working POCs in Rust, Python and Java, plus DataFusion vs DuckDB query benchmarks.",
+    "readme_sha": "cd3a44431205ec96637690b3280315d59ea3b169"
+  },
+  "apple-developer-ideas": {
+    "category": "Apps",
+    "readme_sha": "585a228851c722e75a7b7c2088900fdcb7b5a55c"
+  },
+  "arrow-flight-client": {
+    "category": "Data platforms",
+    "summary": "Archived: Java Arrow Flight client experiment. Revive thread \"arrow-flight\" was declined on 2026-09-23.",
+    "readme_sha": "eb048e25b96f99e95454c15b16f36babfd8e8f4b"
+  },
+  "arrow-flight-server": {
+    "category": "Data platforms",
+    "summary": "Archived: Java Arrow Flight server experiment. Revive thread \"arrow-flight\" was declined on 2026-09-23.",
+    "readme_sha": "15a5f843e0ee85e85297fee14fccfe550091d9d8"
+  },
+  "arrow-tryouts": {
+    "category": "Data platforms",
+    "readme_sha": "f9fd351ea284c19dc67fe5b5e58e3a3febab26ef"
+  },
+  "aws_tryouts": {
+    "category": "Infra & ops",
+    "readme_sha": "5ac5570109366dea2d1ee7d96572804be08d1751"
+  },
+  "camunda-tryouts": {
+    "category": "AI & agents",
+    "readme_sha": "4e9fc26e96a36b6efa306b9a35a493ecfa75b2d7"
+  },
+  "coredata_specs": {
+    "category": "Data platforms",
+    "summary": "Specs-only repo (speckit) for the coredata product: platform, virtualization layer and knowledge graph, plus reference prototypes.",
+    "readme_sha": null
+  },
+  "data-access": {
+    "category": "Data platforms",
+    "readme_sha": "5b5a511ee9bcfc1d77baf7793c5dd159571a0c15"
+  },
+  "data-weaver": {
+    "category": "Data platforms",
+    "readme_sha": "7c7e4ae5f374f65b8f76110929bf04bb2fd954b1"
+  },
+  "dotfiles": {
+    "category": "Infra & ops",
+    "readme_sha": null
+  },
+  "ducklake_poc": {
+    "category": "Data platforms",
+    "summary": "Spring Boot + Testcontainers POC that exercises DuckLake from Java, with a Postgres-backed catalog.",
+    "readme_sha": null
+  },
+  "egress-gateway": {
+    "category": "Infra & ops",
+    "summary": "Archived: 2024 Java egress API gateway design. Revive thread \"gateway\" was declined on 2026-09-23; kept read-only.",
+    "readme_sha": "1194a8589cfd20e2da0bb1f9e11f2606ae078b35"
+  },
+  "graphify-tryouts": {
+    "category": "AI & agents",
+    "readme_sha": "04281014ad5164cd0652b796df24c08f890e4555"
+  },
+  "hermes_ctl": {
+    "category": "Infra & ops",
+    "readme_sha": "fd81809438d0f72ddd7e4e6f5e2d1094d84b6b28"
+  },
+  "iceberg_query": {
+    "category": "Data platforms",
+    "summary": "Small 2023 Spring Boot service that queries Apache Iceberg tables (instrument data) over a REST controller.",
+    "readme_sha": null
+  },
+  "ingress-gateway": {
+    "category": "Infra & ops",
+    "summary": "Archived: 2024 Java ingress API gateway design. Revive thread \"gateway\" was declined on 2026-09-23; kept read-only.",
+    "readme_sha": "ac13e073bd83a440fd195bf37a6d2a4580f0019f"
+  },
+  "k8s-cluster": {
+    "category": "Infra & ops",
+    "readme_sha": "8a4f5248cea1d31087f69c0060baba05c7861b66"
+  },
+  "kafka-supervisor": {
+    "category": "Data platforms",
+    "readme_sha": "b9cc95435cea1526e3c1628753b5371cbc89e0b9"
+  },
+  "kb-entitlements-agents-poc": {
+    "category": "AI & agents",
+    "readme_sha": "d3a6f72548243f9c1bae510e9f7313a40ec1987e"
+  },
+  "kb-kg-poc": {
+    "category": "AI & agents",
+    "summary": "FND-0026 POC: governed knowledge base and graph with Confluence intake, review and publication, and parser/retrieval bake-offs.",
+    "readme_sha": "246da2582d71cf65b30740cf37183fa4d6c0d7c0"
+  },
+  "local-llm-lab": {
+    "category": "AI & agents",
+    "readme_sha": "b5a383d24e30311706b84529668130d9ee26e698"
+  },
+  "mathrixhome.com": {
+    "category": "Sites & writing",
+    "summary": "Astro site on music as computation: tuning, Euclidean rhythms and measured findings from the MAESTRO piano corpus.",
+    "readme_sha": "a7f5a397fafa06f34e1586fea16164251a8ac657"
+  },
+  "midirixsynth": {
+    "category": "Apps",
+    "summary": "iPadOS app that shows, records and transcribes MIDI from a Yamaha piano into sheet music, to learn sight-reading by ear.",
+    "readme_sha": "4641d44ccc3cc35f9f731f4a24deb324b2cb1e96"
+  },
+  "nlpoc-claude": {
+    "category": "AI & agents",
+    "summary": "Natural-language-to-SQL multi-agent system: Claude analyzes and generates queries, Sentence Transformers handle RAG context.",
+    "readme_sha": "85d58046528a4e41c0dfc8618b2684e6026a9209"
+  },
+  "numarix": {
+    "category": "AI & agents",
+    "readme_sha": "83a79f5608a84f4708a694273858b81291e43f06"
+  },
+  "open-substrate": {
+    "category": "Data platforms",
+    "summary": "OpenSubstrate: standards-based lakehouse (Iceberg, Nessie, DuckDB, Flight SQL) with multi-tenant ontology, ReBAC and an MCP server.",
+    "readme_sha": "db53d6eda6e472c60ecaeb9ba6e45178acc8a4b7"
+  },
+  "open-weight-model-tryouts": {
+    "category": "AI & agents",
+    "readme_sha": "e772cf21e0b7e9dbc8882bb607ebe953ebe6bd19"
+  },
+  "openclaw_ctl": {
+    "category": "Infra & ops",
+    "summary": "Control repo for the OpenClaw agent on a Hostinger VPS: ops scripts, config backups, egress fence and inventory notes.",
+    "readme_sha": "380c6336a67c5e56920fbdc042048d7e48adfa78"
+  },
+  "oracle-freetier": {
+    "category": "Infra & ops",
+    "readme_sha": "de1178a761cdde8379c50329d4f43a75d335a60d"
+  },
+  "project-samson": {
+    "category": "AI & agents",
+    "summary": "Project Samson: clean-start Go platform for governed, enterprise-grade agent execution, with an AWS Fargate pilot deployment.",
+    "readme_sha": null
+  },
+  "rixmath-dataplatform": {
+    "category": "Data platforms",
+    "readme_sha": "07989d4dc0c970c662eee80597033878d18e21df"
+  },
+  "rixonmathew.com": {
+    "category": "Sites & writing",
+    "readme_sha": "bfcfc0ee302e4f1e3f14b4787bb8644af379ff42"
+  },
+  "rixp330_services": {
+    "category": "Infra & ops",
+    "summary": "svcctl: lifecycle management for Trino, Flink, Spark, Kafka, MinIO and observability running natively on rixp330 and its VMs.",
+    "readme_sha": "549df27f88719d4224352d904cde8f1cd6fddbf6"
+  },
+  "runecast": {
+    "category": "AI & agents",
+    "summary": "RuneCast POC: an LLM writes data-task code grounded in a knowledge graph; a human approves it before a deterministic deploy.",
+    "readme_sha": "ac089709a463ee667f4c786351d57e7d23cf1cd4"
+  },
+  "rust_by_practice": {
+    "category": "Learning",
+    "summary": "Learn-by-doing Rust curriculum: 13 milestones of failing-test exercises (78 in all) followed by 5 capstone project tracks.",
+    "readme_sha": "fc6d9e92585f793613c0dfb87926d2770e0a3fc8"
+  },
+  "sandbox-tryouts": {
+    "category": "AI & agents",
+    "readme_sha": "ce16f585f675d63d30f22ce976493e3314e86656"
+  },
+  "spark-arrow-tryous": {
+    "category": "Data platforms",
+    "summary": "Archived: Spark + Arrow experiment in Java. Revive thread \"arrow-flight\" was declined on 2026-09-23.",
+    "readme_sha": "e12aefc5b405fa9d17d951acbe722493a8f4c690"
+  },
+  "sql-query-editor": {
+    "category": "Apps",
+    "readme_sha": "7f7ccead36af10b8636525a90c716110b1aca2e7"
+  },
+  "tryouts": {
+    "category": "Learning",
+    "readme_sha": "18720f5cc20fc322bed999c7cc0b941c89acf60a"
+  }
+}

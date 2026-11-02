@@ -1,0 +1,779 @@
+{
+  "owner": "rixonmathew",
+  "generated_at": "2026-11-02T03:35:25+00:00",
+  "repos": [
+    {
+      "name": "ai-prism",
+      "url": "https://github.com/rixonmathew/ai-prism",
+      "private": true,
+      "fork": false,
+      "language": "MDX",
+      "topics": [],
+      "homepage": null,
+      "summary": "AI Prism breaks down the complex AI landscape into a clear, assessable spectrum. An educational guide and independent directory mapping out every layer of the modern AI stack and its tools.",
+      "category": "Sites & writing",
+      "status": "active",
+      "created_at": "2026-07-25T04:56:14Z",
+      "pushed_at": "2026-11-01T10:51:44Z",
+      "last_commit": {
+        "date": "2026-11-01T10:51:43Z"
+      }
+    },
+    {
+      "name": "rixonmathew.com",
+      "url": "https://github.com/rixonmathew/rixonmathew.com",
+      "private": true,
+      "fork": false,
+      "language": "MDX",
+      "topics": [],
+      "homepage": null,
+      "summary": "Personal site — distributed data platforms, AI engineering, computer science, music as computation. Astro, deployed to Cloudflare.",
+      "category": "Sites & writing",
+      "status": "active",
+      "created_at": "2026-09-05T14:52:02Z",
+      "pushed_at": "2026-11-01T09:39:04Z",
+      "last_commit": {
+        "date": "2026-11-01T03:48:19Z"
+      }
+    },
+    {
+      "name": "data-access",
+      "url": "https://github.com/rixonmathew/data-access",
+      "private": true,
+      "fork": false,
+      "language": "Java",
+      "topics": [],
+      "homepage": null,
+      "summary": "To try out normal and reactive data access",
+      "category": "Data platforms",
+      "status": "active",
+      "created_at": "2018-12-25T07:38:25Z",
+      "pushed_at": "2026-11-01T04:01:06Z",
+      "last_commit": {
+        "date": "2026-11-01T03:39:40Z"
+      }
+    },
+    {
+      "name": "rixp330_services",
+      "url": "https://github.com/rixonmathew/rixp330_services",
+      "private": true,
+      "fork": false,
+      "language": "Shell",
+      "topics": [],
+      "homepage": null,
+      "summary": "svcctl: lifecycle management for Trino, Flink, Spark, Kafka, MinIO and observability running natively on rixp330 and its VMs.",
+      "category": "Infra & ops",
+      "status": "active",
+      "created_at": "2026-08-29T16:40:14Z",
+      "pushed_at": "2026-11-01T03:36:53Z",
+      "last_commit": {
+        "date": "2026-11-01T03:36:52Z"
+      }
+    },
+    {
+      "name": "hermes_ctl",
+      "url": "https://github.com/rixonmathew/hermes_ctl",
+      "private": true,
+      "fork": false,
+      "language": "Shell",
+      "topics": [],
+      "homepage": null,
+      "summary": "Hermes Agent on oracle-hcp: provisioning, isolation and lifecycle",
+      "category": "Infra & ops",
+      "status": "active",
+      "created_at": "2026-10-17T13:27:20Z",
+      "pushed_at": "2026-10-31T04:21:29Z",
+      "last_commit": {
+        "date": "2026-10-31T04:21:28Z"
+      }
+    },
+    {
+      "name": "openclaw_ctl",
+      "url": "https://github.com/rixonmathew/openclaw_ctl",
+      "private": true,
+      "fork": false,
+      "language": "Shell",
+      "topics": [],
+      "homepage": null,
+      "summary": "Control repo for the OpenClaw agent on a Hostinger VPS: ops scripts, config backups, egress fence and inventory notes.",
+      "category": "Infra & ops",
+      "status": "active",
+      "created_at": "2026-08-30T04:48:31Z",
+      "pushed_at": "2026-10-30T07:03:00Z",
+      "last_commit": {
+        "date": "2026-10-30T05:37:02Z"
+      }
+    },
+    {
+      "name": "k8s-cluster",
+      "url": "https://github.com/rixonmathew/k8s-cluster",
+      "private": true,
+      "fork": false,
+      "language": "Shell",
+      "topics": [],
+      "homepage": null,
+      "summary": "Automated kubeadm maintenance for the rixp330 (amd64) and Raspberry Pi (arm64) Kubernetes clusters",
+      "category": "Infra & ops",
+      "status": "active",
+      "created_at": "2026-08-29T12:40:52Z",
+      "pushed_at": "2026-10-29T13:42:52Z",
+      "last_commit": {
+        "date": "2026-10-29T11:05:02Z"
+      }
+    },
+    {
+      "name": "runecast",
+      "url": "https://github.com/rixonmathew/runecast",
+      "private": true,
+      "fork": false,
+      "language": "Python",
+      "topics": [],
+      "homepage": null,
+      "summary": "RuneCast POC: an LLM writes data-task code grounded in a knowledge graph; a human approves it before a deterministic deploy.",
+      "category": "AI & agents",
+      "status": "active",
+      "created_at": "2026-09-23T01:16:44Z",
+      "pushed_at": "2026-10-27T04:55:50Z",
+      "last_commit": {
+        "date": "2026-10-27T04:55:48Z"
+      }
+    },
+    {
+      "name": "agent-substrate-tryouts",
+      "url": "https://github.com/rixonmathew/agent-substrate-tryouts",
+      "private": true,
+      "fork": false,
+      "language": "Python",
+      "topics": [],
+      "homepage": null,
+      "summary": "Interactive workbench, live local Kubernetes (v1.37.1) & GKE lab runner, and deep-dive documentation for Agent Substrate",
+      "category": "AI & agents",
+      "status": "active",
+      "created_at": "2026-10-26T12:07:46Z",
+      "pushed_at": "2026-10-26T16:50:47Z",
+      "last_commit": {
+        "date": "2026-10-26T16:50:46Z"
+      }
+    },
+    {
+      "name": "agent-software-factory-tryouts",
+      "url": "https://github.com/rixonmathew/agent-software-factory-tryouts",
+      "private": true,
+      "fork": false,
+      "language": "Python",
+      "topics": [],
+      "homepage": null,
+      "summary": "NexusFactory: agent-agnostic software factory that runs AI agents across an 8-stage SDLC, with simulated tracker, chat, git and environments.",
+      "category": "AI & agents",
+      "status": "active",
+      "created_at": "2026-10-24T04:48:20Z",
+      "pushed_at": "2026-10-26T09:42:37Z",
+      "last_commit": {
+        "date": "2026-10-26T09:42:36Z"
+      }
+    },
+    {
+      "name": "graphify-tryouts",
+      "url": "https://github.com/rixonmathew/graphify-tryouts",
+      "private": true,
+      "fork": false,
+      "language": "HTML",
+      "topics": [],
+      "homepage": null,
+      "summary": "Interactive Graphify Mastery Academy & Agentic Knowledge Graph Workbench (https://app.graphify.com/rix-kg)",
+      "category": "AI & agents",
+      "status": "active",
+      "created_at": "2026-10-17T12:56:50Z",
+      "pushed_at": "2026-10-24T04:50:53Z",
+      "last_commit": {
+        "date": "2026-10-24T04:50:50Z"
+      }
+    },
+    {
+      "name": "open-substrate",
+      "url": "https://github.com/rixonmathew/open-substrate",
+      "private": true,
+      "fork": false,
+      "language": "Python",
+      "topics": [],
+      "homepage": null,
+      "summary": "OpenSubstrate: standards-based lakehouse (Iceberg, Nessie, DuckDB, Flight SQL) with multi-tenant ontology, ReBAC and an MCP server.",
+      "category": "Data platforms",
+      "status": "active",
+      "created_at": "2026-10-01T12:13:55Z",
+      "pushed_at": "2026-10-20T05:10:19Z",
+      "last_commit": {
+        "date": "2026-10-20T05:10:16Z"
+      }
+    },
+    {
+      "name": "sandbox-tryouts",
+      "url": "https://github.com/rixonmathew/sandbox-tryouts",
+      "private": true,
+      "fork": false,
+      "language": "Python",
+      "topics": [],
+      "homepage": null,
+      "summary": "Evaluation and experiments for running AI agents in sandboxes",
+      "category": "AI & agents",
+      "status": "active",
+      "created_at": "2026-10-14T13:39:53Z",
+      "pushed_at": "2026-10-17T13:15:59Z",
+      "last_commit": {
+        "date": "2026-10-17T13:15:56Z"
+      }
+    },
+    {
+      "name": "open-weight-model-tryouts",
+      "url": "https://github.com/rixonmathew/open-weight-model-tryouts",
+      "private": true,
+      "fork": false,
+      "language": "Python",
+      "topics": [],
+      "homepage": null,
+      "summary": "End-to-end guides, datasets, and Light-Mode Web Studio for open-weight model customization (LoRA/DoRA/Weight Surgery) and inference deployment on Apple Silicon",
+      "category": "AI & agents",
+      "status": "active",
+      "created_at": "2026-10-16T12:33:25Z",
+      "pushed_at": "2026-10-17T13:09:21Z",
+      "last_commit": {
+        "date": "2026-10-17T13:09:19Z"
+      }
+    },
+    {
+      "name": "camunda-tryouts",
+      "url": "https://github.com/rixonmathew/camunda-tryouts",
+      "private": true,
+      "fork": false,
+      "language": "JavaScript",
+      "topics": [],
+      "homepage": null,
+      "summary": "Camunda 8.10 Agentic Workflows & Enterprise Re-Engineering POC (Speed, Scale, Trust)",
+      "category": "AI & agents",
+      "status": "active",
+      "created_at": "2026-10-15T05:14:42Z",
+      "pushed_at": "2026-10-17T13:08:02Z",
+      "last_commit": {
+        "date": "2026-10-17T13:07:59Z"
+      }
+    },
+    {
+      "name": "apple-developer-ideas",
+      "url": "https://github.com/rixonmathew/apple-developer-ideas",
+      "private": true,
+      "fork": false,
+      "language": null,
+      "topics": [],
+      "homepage": null,
+      "summary": "Portfolio plan: 12+ App Store apps live by Dec 2027",
+      "category": "Apps",
+      "status": "active",
+      "created_at": "2026-10-10T01:48:58Z",
+      "pushed_at": "2026-10-10T03:40:38Z",
+      "last_commit": {
+        "date": "2026-10-10T03:40:35Z"
+      }
+    },
+    {
+      "name": "project-samson",
+      "url": "https://github.com/rixonmathew/project-samson",
+      "private": true,
+      "fork": false,
+      "language": "Go",
+      "topics": [],
+      "homepage": null,
+      "summary": "Project Samson: clean-start Go platform for governed, enterprise-grade agent execution, with an AWS Fargate pilot deployment.",
+      "category": "AI & agents",
+      "status": "cooling",
+      "created_at": "2026-09-29T15:15:30Z",
+      "pushed_at": "2026-09-30T05:03:04Z",
+      "last_commit": {
+        "date": "2026-09-30T05:03:01Z"
+      }
+    },
+    {
+      "name": "aws_tryouts",
+      "url": "https://github.com/rixonmathew/aws_tryouts",
+      "private": true,
+      "fork": false,
+      "language": "Python",
+      "topics": [],
+      "homepage": null,
+      "summary": "Scripted AWS experiments for hosting agentic workflows in production (AgentCore, Lambda MicroVMs, Terraform, uv)",
+      "category": "Infra & ops",
+      "status": "cooling",
+      "created_at": "2026-09-28T11:19:19Z",
+      "pushed_at": "2026-09-30T04:51:56Z",
+      "last_commit": {
+        "date": "2026-09-30T04:51:53Z"
+      }
+    },
+    {
+      "name": "rixmath-dataplatform",
+      "url": "https://github.com/rixonmathew/rixmath-dataplatform",
+      "private": true,
+      "fork": false,
+      "language": "Shell",
+      "topics": [],
+      "homepage": null,
+      "summary": "Proof-of-concept modern data platform on a single VPS — assembled engines, a control plane I build, public read-only demo at rixmath.in",
+      "category": "Data platforms",
+      "status": "cooling",
+      "created_at": "2026-09-06T03:55:24Z",
+      "pushed_at": "2026-09-30T01:46:49Z",
+      "last_commit": {
+        "date": "2026-09-29T03:55:15Z"
+      }
+    },
+    {
+      "name": "agent-framework-tryouts",
+      "url": "https://github.com/rixonmathew/agent-framework-tryouts",
+      "private": false,
+      "fork": false,
+      "language": null,
+      "topics": [],
+      "homepage": null,
+      "summary": "Guide comparing agent orchestration frameworks: a LangGraph deep dive plus evaluations of PydanticAI, CrewAI and AutoGen (AG2).",
+      "category": "AI & agents",
+      "status": "cooling",
+      "created_at": "2026-09-24T13:24:50Z",
+      "pushed_at": "2026-09-24T13:24:56Z",
+      "last_commit": {
+        "message": "Initial commit: LangGraph in-depth guides, framework comparisons, and runnable templates",
+        "date": "2026-09-24T13:24:45Z"
+      }
+    },
+    {
+      "name": "apache-datafusion-tryouts",
+      "url": "https://github.com/rixonmathew/apache-datafusion-tryouts",
+      "private": false,
+      "fork": false,
+      "language": "Python",
+      "topics": [],
+      "homepage": null,
+      "summary": "Apache DataFusion deep dive with working POCs in Rust, Python and Java, plus DataFusion vs DuckDB query benchmarks.",
+      "category": "Data platforms",
+      "status": "cooling",
+      "created_at": "2026-09-24T11:29:40Z",
+      "pushed_at": "2026-09-24T11:34:18Z",
+      "last_commit": {
+        "message": "docs: add exact DataFusion and DuckDB engine versions to benchmark documentation",
+        "date": "2026-09-24T11:34:15Z"
+      }
+    },
+    {
+      "name": "kb-entitlements-agents-poc",
+      "url": "https://github.com/rixonmathew/kb-entitlements-agents-poc",
+      "private": true,
+      "fork": false,
+      "language": "Python",
+      "topics": [],
+      "homepage": null,
+      "summary": "POC: governed, versioned knowledge bases and a knowledge graph under agent entitlements, with an auditable per-request authorization gate (FND-0026)",
+      "category": "AI & agents",
+      "status": "cooling",
+      "created_at": "2026-09-16T08:18:47Z",
+      "pushed_at": "2026-09-23T14:16:25Z",
+      "last_commit": {
+        "date": "2026-09-23T14:16:11Z"
+      }
+    },
+    {
+      "name": "kb-kg-poc",
+      "url": "https://github.com/rixonmathew/kb-kg-poc",
+      "private": true,
+      "fork": false,
+      "language": "HTML",
+      "topics": [],
+      "homepage": null,
+      "summary": "FND-0026 POC: governed knowledge base and graph with Confluence intake, review and publication, and parser/retrieval bake-offs.",
+      "category": "AI & agents",
+      "status": "cooling",
+      "created_at": "2026-09-21T14:41:20Z",
+      "pushed_at": "2026-09-23T12:11:43Z",
+      "last_commit": {
+        "date": "2026-09-23T12:11:33Z"
+      }
+    },
+    {
+      "name": "nlpoc-claude",
+      "url": "https://github.com/rixonmathew/nlpoc-claude",
+      "private": true,
+      "fork": false,
+      "language": "Python",
+      "topics": [
+        "revive-candidate",
+        "revive-nl-to-sql"
+      ],
+      "homepage": null,
+      "summary": "Natural-language-to-SQL multi-agent system: Claude analyzes and generates queries, Sentence Transformers handle RAG context.",
+      "category": "AI & agents",
+      "status": "cooling",
+      "created_at": "2026-02-14T03:52:01Z",
+      "pushed_at": "2026-09-23T09:16:49Z",
+      "last_commit": {
+        "date": "2026-03-10T01:47:49Z"
+      }
+    },
+    {
+      "name": "local-llm-lab",
+      "url": "https://github.com/rixonmathew/local-llm-lab",
+      "private": true,
+      "fork": false,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "homepage": null,
+      "summary": "Local LLM inference lab: vLLM, MLX, PyTorch, with a shared serving/benchmark harness",
+      "category": "AI & agents",
+      "status": "cooling",
+      "created_at": "2026-09-23T09:04:20Z",
+      "pushed_at": "2026-09-23T09:04:26Z",
+      "last_commit": {
+        "date": "2026-09-23T09:04:04Z"
+      }
+    },
+    {
+      "name": "tryouts",
+      "url": "https://github.com/rixonmathew/tryouts",
+      "private": true,
+      "fork": false,
+      "language": "HTML",
+      "topics": [],
+      "homepage": null,
+      "summary": "Consolidated experiments and learning spikes (2011-2026), merged from 42 archived repos with history preserved",
+      "category": "Learning",
+      "status": "cooling",
+      "created_at": "2026-09-22T14:57:20Z",
+      "pushed_at": "2026-09-23T08:57:14Z",
+      "last_commit": {
+        "date": "2026-09-23T08:57:11Z"
+      }
+    },
+    {
+      "name": "spark-arrow-tryous",
+      "url": "https://github.com/rixonmathew/spark-arrow-tryous",
+      "private": true,
+      "fork": false,
+      "language": "Java",
+      "topics": [],
+      "homepage": null,
+      "summary": "Archived: Spark + Arrow experiment in Java. Revive thread \"arrow-flight\" was declined on 2026-09-23.",
+      "category": "Data platforms",
+      "status": "archived",
+      "created_at": "2024-06-06T01:13:41Z",
+      "pushed_at": "2026-09-23T08:40:06Z",
+      "last_commit": {
+        "date": "2026-09-23T08:40:03Z"
+      }
+    },
+    {
+      "name": "arrow-flight-server",
+      "url": "https://github.com/rixonmathew/arrow-flight-server",
+      "private": true,
+      "fork": false,
+      "language": "Java",
+      "topics": [],
+      "homepage": null,
+      "summary": "Archived: Java Arrow Flight server experiment. Revive thread \"arrow-flight\" was declined on 2026-09-23.",
+      "category": "Data platforms",
+      "status": "archived",
+      "created_at": "2024-05-04T02:51:43Z",
+      "pushed_at": "2026-09-23T08:40:00Z",
+      "last_commit": {
+        "date": "2026-09-23T08:39:57Z"
+      }
+    },
+    {
+      "name": "arrow-flight-client",
+      "url": "https://github.com/rixonmathew/arrow-flight-client",
+      "private": true,
+      "fork": false,
+      "language": "Java",
+      "topics": [],
+      "homepage": null,
+      "summary": "Archived: Java Arrow Flight client experiment. Revive thread \"arrow-flight\" was declined on 2026-09-23.",
+      "category": "Data platforms",
+      "status": "archived",
+      "created_at": "2024-05-04T08:40:47Z",
+      "pushed_at": "2026-09-23T08:39:53Z",
+      "last_commit": {
+        "date": "2026-09-23T08:39:50Z"
+      }
+    },
+    {
+      "name": "egress-gateway",
+      "url": "https://github.com/rixonmathew/egress-gateway",
+      "private": true,
+      "fork": false,
+      "language": "Java",
+      "topics": [],
+      "homepage": null,
+      "summary": "Archived: 2024 Java egress API gateway design. Revive thread \"gateway\" was declined on 2026-09-23; kept read-only.",
+      "category": "Infra & ops",
+      "status": "archived",
+      "created_at": "2024-05-11T11:02:45Z",
+      "pushed_at": "2026-09-23T08:39:47Z",
+      "last_commit": {
+        "date": "2026-09-23T08:39:44Z"
+      }
+    },
+    {
+      "name": "ingress-gateway",
+      "url": "https://github.com/rixonmathew/ingress-gateway",
+      "private": true,
+      "fork": false,
+      "language": "Java",
+      "topics": [],
+      "homepage": null,
+      "summary": "Archived: 2024 Java ingress API gateway design. Revive thread \"gateway\" was declined on 2026-09-23; kept read-only.",
+      "category": "Infra & ops",
+      "status": "archived",
+      "created_at": "2024-05-11T11:12:58Z",
+      "pushed_at": "2026-09-23T08:39:41Z",
+      "last_commit": {
+        "date": "2026-09-23T08:39:38Z"
+      }
+    },
+    {
+      "name": "arrow-tryouts",
+      "url": "https://github.com/rixonmathew/arrow-tryouts",
+      "private": true,
+      "fork": false,
+      "language": "Java",
+      "topics": [],
+      "homepage": null,
+      "summary": "Tryout Arrow flight implementation",
+      "category": "Data platforms",
+      "status": "archived",
+      "created_at": "2024-05-04T01:03:47Z",
+      "pushed_at": "2026-09-23T08:39:10Z",
+      "last_commit": {
+        "date": "2026-09-23T08:39:07Z"
+      }
+    },
+    {
+      "name": "data-weaver",
+      "url": "https://github.com/rixonmathew/data-weaver",
+      "private": true,
+      "fork": false,
+      "language": "Python",
+      "topics": [
+        "revive-candidate",
+        "revive-synthetic-data"
+      ],
+      "homepage": null,
+      "summary": "tool for data generation",
+      "category": "Data platforms",
+      "status": "cooling",
+      "created_at": "2025-10-25T14:41:11Z",
+      "pushed_at": "2026-09-23T05:00:17Z",
+      "last_commit": {
+        "date": "2026-09-23T04:59:46Z"
+      }
+    },
+    {
+      "name": "coredata_specs",
+      "url": "https://github.com/rixonmathew/coredata_specs",
+      "private": true,
+      "fork": false,
+      "language": "Shell",
+      "topics": [],
+      "homepage": null,
+      "summary": "Specs-only repo (speckit) for the coredata product: platform, virtualization layer and knowledge graph, plus reference prototypes.",
+      "category": "Data platforms",
+      "status": "cooling",
+      "created_at": "2026-09-23T01:16:52Z",
+      "pushed_at": "2026-09-23T01:17:16Z",
+      "last_commit": {
+        "date": "2026-09-23T01:16:44Z"
+      }
+    },
+    {
+      "name": "mathrixhome.com",
+      "url": "https://github.com/rixonmathew/mathrixhome.com",
+      "private": true,
+      "fork": false,
+      "language": "Astro",
+      "topics": [],
+      "homepage": null,
+      "summary": "Astro site on music as computation: tuning, Euclidean rhythms and measured findings from the MAESTRO piano corpus.",
+      "category": "Sites & writing",
+      "status": "cooling",
+      "created_at": "2026-09-20T13:58:42Z",
+      "pushed_at": "2026-09-21T04:55:53Z",
+      "last_commit": {
+        "date": "2026-09-21T04:55:52Z"
+      }
+    },
+    {
+      "name": "midirixsynth",
+      "url": "https://github.com/rixonmathew/midirixsynth",
+      "private": true,
+      "fork": false,
+      "language": "Swift",
+      "topics": [],
+      "homepage": null,
+      "summary": "iPadOS app that shows, records and transcribes MIDI from a Yamaha piano into sheet music, to learn sight-reading by ear.",
+      "category": "Apps",
+      "status": "cooling",
+      "created_at": "2026-08-31T03:00:59Z",
+      "pushed_at": "2026-09-12T13:54:18Z",
+      "last_commit": {
+        "date": "2026-09-12T13:50:17Z"
+      }
+    },
+    {
+      "name": "oracle-freetier",
+      "url": "https://github.com/rixonmathew/oracle-freetier",
+      "private": true,
+      "fork": false,
+      "language": "Shell",
+      "topics": [],
+      "homepage": null,
+      "summary": "Always Free workloads on Oracle Cloud, and a watchdog that keeps the Autonomous Database from being stopped or reclaimed",
+      "category": "Infra & ops",
+      "status": "cooling",
+      "created_at": "2026-09-07T11:53:00Z",
+      "pushed_at": "2026-09-07T12:38:10Z",
+      "last_commit": {
+        "date": "2026-09-07T12:38:08Z"
+      }
+    },
+    {
+      "name": "rust_by_practice",
+      "url": "https://github.com/rixonmathew/rust_by_practice",
+      "private": true,
+      "fork": false,
+      "language": "Rust",
+      "topics": [],
+      "homepage": null,
+      "summary": "Learn-by-doing Rust curriculum: 13 milestones of failing-test exercises (78 in all) followed by 5 capstone project tracks.",
+      "category": "Learning",
+      "status": "cooling",
+      "created_at": "2026-08-07T13:21:48Z",
+      "pushed_at": "2026-08-07T13:22:04Z",
+      "last_commit": {
+        "date": "2026-08-07T13:18:05Z"
+      }
+    },
+    {
+      "name": "kafka-supervisor",
+      "url": "https://github.com/rixonmathew/kafka-supervisor",
+      "private": true,
+      "fork": false,
+      "language": "Shell",
+      "topics": [
+        "revive-candidate",
+        "revive-kafka-admin"
+      ],
+      "homepage": null,
+      "summary": "Kafka cluster administration tool with web UI — supports local Kafka (KRaft) and AWS MSK",
+      "category": "Data platforms",
+      "status": "dormant",
+      "created_at": "2026-04-11T14:43:41Z",
+      "pushed_at": "2026-04-12T05:05:07Z",
+      "last_commit": {
+        "date": "2026-04-11T14:35:50Z"
+      }
+    },
+    {
+      "name": "numarix",
+      "url": "https://github.com/rixonmathew/numarix",
+      "private": true,
+      "fork": false,
+      "language": null,
+      "topics": [
+        "revive-candidate",
+        "revive-nl-to-sql"
+      ],
+      "homepage": null,
+      "summary": "A project to tryout AI Agents in solving natural language problems for querying",
+      "category": "AI & agents",
+      "status": "dormant",
+      "created_at": "2025-11-29T04:11:52Z",
+      "pushed_at": "2025-11-29T04:11:52Z",
+      "last_commit": {
+        "date": "2025-11-29T04:11:52Z"
+      }
+    },
+    {
+      "name": "ducklake_poc",
+      "url": "https://github.com/rixonmathew/ducklake_poc",
+      "private": true,
+      "fork": false,
+      "language": "Java",
+      "topics": [
+        "revive-candidate",
+        "revive-lakehouse"
+      ],
+      "homepage": null,
+      "summary": "Spring Boot + Testcontainers POC that exercises DuckLake from Java, with a Postgres-backed catalog.",
+      "category": "Data platforms",
+      "status": "dormant",
+      "created_at": "2025-07-03T01:45:35Z",
+      "pushed_at": "2025-11-23T15:53:43Z",
+      "last_commit": {
+        "date": "2025-11-23T15:53:39Z"
+      }
+    },
+    {
+      "name": "sql-query-editor",
+      "url": "https://github.com/rixonmathew/sql-query-editor",
+      "private": true,
+      "fork": false,
+      "language": "TypeScript",
+      "topics": [
+        "revive-candidate",
+        "revive-nl-to-sql"
+      ],
+      "homepage": null,
+      "summary": "AI generated simple query editor",
+      "category": "Apps",
+      "status": "dormant",
+      "created_at": "2025-07-30T17:58:38Z",
+      "pushed_at": "2025-07-30T17:58:52Z",
+      "last_commit": {
+        "date": "2025-07-30T17:57:13Z"
+      }
+    },
+    {
+      "name": "dotfiles",
+      "url": "https://github.com/rixonmathew/dotfiles",
+      "private": false,
+      "fork": false,
+      "language": "Lua",
+      "topics": [],
+      "homepage": null,
+      "summary": "Collection of dot files being used in different environments",
+      "category": "Infra & ops",
+      "status": "dormant",
+      "created_at": "2023-12-16T18:15:36Z",
+      "pushed_at": "2024-12-08T03:56:27Z",
+      "last_commit": {
+        "message": "wip changes",
+        "date": "2024-12-08T03:56:21Z"
+      }
+    },
+    {
+      "name": "iceberg_query",
+      "url": "https://github.com/rixonmathew/iceberg_query",
+      "private": false,
+      "fork": false,
+      "language": "Java",
+      "topics": [
+        "revive-candidate",
+        "revive-lakehouse"
+      ],
+      "homepage": null,
+      "summary": "Small 2023 Spring Boot service that queries Apache Iceberg tables (instrument data) over a REST controller.",
+      "category": "Data platforms",
+      "status": "dormant",
+      "created_at": "2023-01-30T00:30:05Z",
+      "pushed_at": "2023-01-30T00:31:27Z",
+      "last_commit": {
+        "message": "initial commit",
+        "date": "2023-01-30T00:31:23Z"
+      }
+    }
+  ]
+}
