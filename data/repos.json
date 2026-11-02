@@ -1,13 +1,47 @@
 {
   "owner": "rixonmathew",
-  "generated_at": "2026-11-02T07:09:38+00:00",
+  "generated_at": "2026-11-02T16:04:48+00:00",
   "repos": [
+    {
+      "name": "ai-prism",
+      "url": "https://github.com/rixonmathew/ai-prism",
+      "private": true,
+      "fork": false,
+      "language": "MDX",
+      "topics": [],
+      "homepage": null,
+      "summary": "AI Prism breaks down the complex AI landscape into a clear, assessable spectrum. An educational guide and independent directory mapping out every layer of the modern AI stack and its tools.",
+      "category": "Sites & writing",
+      "status": "active",
+      "created_at": "2026-07-25T04:56:14Z",
+      "pushed_at": "2026-11-02T11:48:29Z",
+      "last_commit": {
+        "date": "2026-11-02T11:48:28Z"
+      }
+    },
+    {
+      "name": "rixonmathew.com",
+      "url": "https://github.com/rixonmathew/rixonmathew.com",
+      "private": true,
+      "fork": false,
+      "language": "MDX",
+      "topics": [],
+      "homepage": null,
+      "summary": "Personal site — distributed data platforms, AI engineering, computer science, music as computation. Astro, deployed to Cloudflare.",
+      "category": "Sites & writing",
+      "status": "active",
+      "created_at": "2026-09-05T14:52:02Z",
+      "pushed_at": "2026-11-02T08:45:52Z",
+      "last_commit": {
+        "date": "2026-11-01T03:48:19Z"
+      }
+    },
     {
       "name": "kafka-supervisor",
       "url": "https://github.com/rixonmathew/kafka-supervisor",
       "private": true,
       "fork": false,
-      "language": "Shell",
+      "language": "Python",
       "topics": [
         "revive-candidate",
         "revive-kafka-admin"
@@ -17,9 +51,9 @@
       "category": "Data platforms",
       "status": "active",
       "created_at": "2026-04-11T14:43:41Z",
-      "pushed_at": "2026-11-02T06:43:19Z",
+      "pushed_at": "2026-11-02T07:16:19Z",
       "last_commit": {
-        "date": "2026-11-02T06:43:19Z"
+        "date": "2026-11-02T07:11:08Z"
       }
     },
     {
@@ -37,40 +71,6 @@
       "pushed_at": "2026-11-02T05:17:54Z",
       "last_commit": {
         "date": "2026-09-18T02:37:25Z"
-      }
-    },
-    {
-      "name": "ai-prism",
-      "url": "https://github.com/rixonmathew/ai-prism",
-      "private": true,
-      "fork": false,
-      "language": "MDX",
-      "topics": [],
-      "homepage": null,
-      "summary": "AI Prism breaks down the complex AI landscape into a clear, assessable spectrum. An educational guide and independent directory mapping out every layer of the modern AI stack and its tools.",
-      "category": "Sites & writing",
-      "status": "active",
-      "created_at": "2026-07-25T04:56:14Z",
-      "pushed_at": "2026-11-01T10:51:44Z",
-      "last_commit": {
-        "date": "2026-11-01T10:51:43Z"
-      }
-    },
-    {
-      "name": "rixonmathew.com",
-      "url": "https://github.com/rixonmathew/rixonmathew.com",
-      "private": true,
-      "fork": false,
-      "language": "MDX",
-      "topics": [],
-      "homepage": null,
-      "summary": "Personal site — distributed data platforms, AI engineering, computer science, music as computation. Astro, deployed to Cloudflare.",
-      "category": "Sites & writing",
-      "status": "active",
-      "created_at": "2026-09-05T14:52:02Z",
-      "pushed_at": "2026-11-01T09:39:04Z",
-      "last_commit": {
-        "date": "2026-11-01T03:48:19Z"
       }
     },
     {
