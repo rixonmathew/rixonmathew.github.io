@@ -129,9 +129,9 @@
   },
   "midirixsynth": {
     "category": "Apps",
-    "summary": "iPadOS app that shows, records and transcribes MIDI from a Yamaha piano into sheet music, to learn sight-reading by ear.",
-    "readme_sha": "4641d44ccc3cc35f9f731f4a24deb324b2cb1e96",
-    "written_description": "iPadOS app that shows, records and transcribes MIDI from a Yamaha piano into sheet music, to learn sight-reading by ear."
+    "summary": "Native iPadOS SwiftUI app in Swift that records MIDI from a Yamaha DGX-670B, shows live grand-staff notation, and transcribes takes into engraved MusicXML scores via OSMD.",
+    "readme_sha": "e6a3702a5e03d7472dfca60596342f00c9140b12",
+    "written_description": "Native iPadOS SwiftUI app in Swift that records MIDI from a Yamaha DGX-670B, shows live grand-staff notation, and transcribes takes into engraved MusicXML scores via OSMD."
   },
   "nlpoc-claude": {
     "category": "AI & agents",
