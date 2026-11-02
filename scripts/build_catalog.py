@@ -39,6 +39,7 @@ CATALOG_REPO = f"{OWNER}.github.io"
 
 CATEGORIES = ["AI & agents", "Data platforms", "Infra & ops", "Apps", "Sites & writing", "Learning", "Other"]
 MODEL = "claude-haiku-5-5"
+FALLBACK_MODEL = "claude-sonnet-5-5"  # Haiku has no server-side fallback, so retry declines here
 DESC_MAX = 350  # GitHub's limit on repo descriptions
 
 
@@ -131,23 +132,24 @@ def refresh_identity_token() -> None:
 
 
 def summarize(client, repo: dict, text: str, files: list[str]) -> dict | None:
-    refresh_identity_token()
-    response = client.messages.create(
-        model=MODEL,
-        max_tokens=4000,
-        output_config={"effort": "low", "format": {"type": "json_schema", "schema": SCHEMA}},
-        messages=[{
-            "role": "user",
-            "content": PROMPT.format(
-                name=repo["name"],
-                lang=repo.get("language") or "unknown",
-                files=", ".join(files) or "none",
-                readme=text[:20000] or "(no README)",
-            ),
-        }],
+    content = PROMPT.format(
+        name=repo["name"],
+        lang=repo.get("language") or "unknown",
+        files=", ".join(files) or "none",
+        readme=text[:20000] or "(no README)",
     )
-    if response.stop_reason == "refusal":
-        print(f"  refused: {repo['name']}", file=sys.stderr)
+    for model in (MODEL, FALLBACK_MODEL):
+        refresh_identity_token()
+        response = client.messages.create(
+            model=model,
+            max_tokens=4000,
+            output_config={"effort": "low", "format": {"type": "json_schema", "schema": SCHEMA}},
+            messages=[{"role": "user", "content": content}],
+        )
+        if response.stop_reason != "refusal":
+            break
+        print(f"  {model} declined {repo['name']}", file=sys.stderr)
+    else:
         return None
     out = json.loads(next(b.text for b in response.content if b.type == "text"))
     # README text is untrusted input: keep links and markup out of a public description.
