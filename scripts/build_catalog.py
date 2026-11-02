@@ -191,7 +191,11 @@ def main() -> None:
         needs = (not entry.get("category")) or changed or (not hand_written and not entry.get("summary"))
         if needs and client and not repo["fork"]:  # forks carry someone else's README
             print(f"summarizing {name}", file=sys.stderr)
-            got = summarize(client, repo, text, [] if sha else root_files(name))
+            try:
+                got = summarize(client, repo, text, [] if sha else root_files(name))
+            except Exception as e:  # bad credentials or API outage: still rebuild the page
+                print(f"::warning::Claude unavailable, skipping summaries this run: {e}", file=sys.stderr)
+                client, got = None, None
             if got:
                 entry["category"] = got["category"]
                 if not hand_written:
