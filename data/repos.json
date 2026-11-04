@@ -1,6 +1,6 @@
 {
   "owner": "rixonmathew",
-  "generated_at": "2026-11-03T14:24:09+00:00",
+  "generated_at": "2026-11-04T14:39:06+00:00",
   "repos": [
     {
       "name": "ai-prism",
@@ -14,9 +14,9 @@
       "category": "Sites & writing",
       "status": "active",
       "created_at": "2026-07-25T04:56:14Z",
-      "pushed_at": "2026-11-03T11:24:11Z",
+      "pushed_at": "2026-11-04T11:35:51Z",
       "last_commit": {
-        "date": "2026-11-03T11:24:10Z"
+        "date": "2026-11-04T11:35:50Z"
       }
     },
     {
@@ -31,9 +31,26 @@
       "category": "Sites & writing",
       "status": "active",
       "created_at": "2026-09-05T14:52:02Z",
-      "pushed_at": "2026-11-03T08:40:12Z",
+      "pushed_at": "2026-11-04T08:40:25Z",
       "last_commit": {
         "date": "2026-11-01T03:48:19Z"
+      }
+    },
+    {
+      "name": "litellm-tryouts",
+      "url": "https://github.com/rixonmathew/litellm-tryouts",
+      "private": true,
+      "fork": false,
+      "language": "Shell",
+      "topics": [],
+      "homepage": null,
+      "summary": "LiteLLM Enterprise Gateway Prototype for multi-provider routing (OpenRouter, Anthropic, OpenAI, Gemini, Bedrock) with Claude Code, Codex, and OpenHands",
+      "category": "AI & agents",
+      "status": "active",
+      "created_at": "2026-11-03T16:49:36Z",
+      "pushed_at": "2026-11-04T02:16:23Z",
+      "last_commit": {
+        "date": "2026-11-04T02:16:21Z"
       }
     },
     {

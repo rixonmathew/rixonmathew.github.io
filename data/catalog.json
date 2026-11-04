@@ -117,6 +117,10 @@
     "readme_sha": "246da2582d71cf65b30740cf37183fa4d6c0d7c0",
     "written_description": "FND-0026 POC: governed knowledge base and graph with Confluence intake, review and publication, and parser/retrieval bake-offs."
   },
+  "litellm-tryouts": {
+    "category": "AI & agents",
+    "readme_sha": "6112604848ac70a794380c9eb1a2da21b866e364"
+  },
   "local-llm-lab": {
     "category": "AI & agents",
     "readme_sha": "b5a383d24e30311706b84529668130d9ee26e698"
