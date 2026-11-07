@@ -1,7 +1,41 @@
 {
   "owner": "rixonmathew",
-  "generated_at": "2026-11-06T14:22:08+00:00",
+  "generated_at": "2026-11-07T13:10:36+00:00",
   "repos": [
+    {
+      "name": "data-access",
+      "url": "https://github.com/rixonmathew/data-access",
+      "private": true,
+      "fork": false,
+      "language": "Java",
+      "topics": [],
+      "homepage": null,
+      "summary": "To try out normal and reactive data access",
+      "category": "Data platforms",
+      "status": "active",
+      "created_at": "2018-12-25T07:38:25Z",
+      "pushed_at": "2026-11-07T12:52:11Z",
+      "last_commit": {
+        "date": "2026-11-07T12:50:08Z"
+      }
+    },
+    {
+      "name": "sandbox-tryouts",
+      "url": "https://github.com/rixonmathew/sandbox-tryouts",
+      "private": true,
+      "fork": false,
+      "language": "Python",
+      "topics": [],
+      "homepage": null,
+      "summary": "Evaluation and experiments for running AI agents in sandboxes",
+      "category": "AI & agents",
+      "status": "active",
+      "created_at": "2026-10-14T13:39:53Z",
+      "pushed_at": "2026-11-07T11:46:29Z",
+      "last_commit": {
+        "date": "2026-11-07T11:46:26Z"
+      }
+    },
     {
       "name": "ai-prism",
       "url": "https://github.com/rixonmathew/ai-prism",
@@ -14,9 +48,9 @@
       "category": "Sites & writing",
       "status": "active",
       "created_at": "2026-07-25T04:56:14Z",
-      "pushed_at": "2026-11-06T11:31:25Z",
+      "pushed_at": "2026-11-07T10:44:29Z",
       "last_commit": {
-        "date": "2026-11-06T11:31:24Z"
+        "date": "2026-11-07T10:44:28Z"
       }
     },
     {
@@ -31,9 +65,26 @@
       "category": "Sites & writing",
       "status": "active",
       "created_at": "2026-09-05T14:52:02Z",
-      "pushed_at": "2026-11-06T08:40:11Z",
+      "pushed_at": "2026-11-07T08:39:11Z",
       "last_commit": {
         "date": "2026-11-01T03:48:19Z"
+      }
+    },
+    {
+      "name": "rixp330_services",
+      "url": "https://github.com/rixonmathew/rixp330_services",
+      "private": true,
+      "fork": false,
+      "language": "Shell",
+      "topics": [],
+      "homepage": null,
+      "summary": "Bash-driven lifecycle manager (svcctl) that installs, upgrades, validates and rolls back native systemd data services like Trino, Flink, Spark, Kafka and MinIO on local VMs.",
+      "category": "Infra & ops",
+      "status": "active",
+      "created_at": "2026-08-29T16:40:14Z",
+      "pushed_at": "2026-11-07T03:51:02Z",
+      "last_commit": {
+        "date": "2026-11-07T03:51:01Z"
       }
     },
     {
@@ -88,40 +139,6 @@
       "pushed_at": "2026-11-02T05:17:54Z",
       "last_commit": {
         "date": "2026-09-18T02:37:25Z"
-      }
-    },
-    {
-      "name": "data-access",
-      "url": "https://github.com/rixonmathew/data-access",
-      "private": true,
-      "fork": false,
-      "language": "Java",
-      "topics": [],
-      "homepage": null,
-      "summary": "To try out normal and reactive data access",
-      "category": "Data platforms",
-      "status": "active",
-      "created_at": "2018-12-25T07:38:25Z",
-      "pushed_at": "2026-11-01T04:01:06Z",
-      "last_commit": {
-        "date": "2026-11-01T03:39:40Z"
-      }
-    },
-    {
-      "name": "rixp330_services",
-      "url": "https://github.com/rixonmathew/rixp330_services",
-      "private": true,
-      "fork": false,
-      "language": "Shell",
-      "topics": [],
-      "homepage": null,
-      "summary": "svcctl: lifecycle management for Trino, Flink, Spark, Kafka, MinIO and observability running natively on rixp330 and its VMs.",
-      "category": "Infra & ops",
-      "status": "active",
-      "created_at": "2026-08-29T16:40:14Z",
-      "pushed_at": "2026-11-01T03:36:53Z",
-      "last_commit": {
-        "date": "2026-11-01T03:36:52Z"
       }
     },
     {
@@ -258,23 +275,6 @@
       "pushed_at": "2026-10-20T05:10:19Z",
       "last_commit": {
         "date": "2026-10-20T05:10:16Z"
-      }
-    },
-    {
-      "name": "sandbox-tryouts",
-      "url": "https://github.com/rixonmathew/sandbox-tryouts",
-      "private": true,
-      "fork": false,
-      "language": "Python",
-      "topics": [],
-      "homepage": null,
-      "summary": "Evaluation and experiments for running AI agents in sandboxes",
-      "category": "AI & agents",
-      "status": "active",
-      "created_at": "2026-10-14T13:39:53Z",
-      "pushed_at": "2026-10-17T13:15:59Z",
-      "last_commit": {
-        "date": "2026-10-17T13:15:56Z"
       }
     },
     {

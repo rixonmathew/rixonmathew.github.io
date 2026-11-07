@@ -183,9 +183,9 @@
   },
   "rixp330_services": {
     "category": "Infra & ops",
-    "summary": "svcctl: lifecycle management for Trino, Flink, Spark, Kafka, MinIO and observability running natively on rixp330 and its VMs.",
-    "readme_sha": "549df27f88719d4224352d904cde8f1cd6fddbf6",
-    "written_description": "svcctl: lifecycle management for Trino, Flink, Spark, Kafka, MinIO and observability running natively on rixp330 and its VMs."
+    "summary": "Bash-driven lifecycle manager (svcctl) that installs, upgrades, validates and rolls back native systemd data services like Trino, Flink, Spark, Kafka and MinIO on local VMs.",
+    "readme_sha": "937c5c2d0dd59b10bfc94f5e0bf3cf32054b04ec",
+    "written_description": "Bash-driven lifecycle manager (svcctl) that installs, upgrades, validates and rolls back native systemd data services like Trino, Flink, Spark, Kafka and MinIO on local VMs."
   },
   "runecast": {
     "category": "AI & agents",
@@ -201,7 +201,7 @@
   },
   "sandbox-tryouts": {
     "category": "AI & agents",
-    "readme_sha": "ce16f585f675d63d30f22ce976493e3314e86656"
+    "readme_sha": "b83e68fd24440c4caf0ba0437fd76adda3a293c5"
   },
   "spark-arrow-tryous": {
     "category": "Data platforms",
