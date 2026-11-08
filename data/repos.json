@@ -1,6 +1,6 @@
 {
   "owner": "rixonmathew",
-  "generated_at": "2026-11-07T13:10:36+00:00",
+  "generated_at": "2026-11-08T13:31:47+00:00",
   "repos": [
     {
       "name": "data-access",
@@ -14,9 +14,43 @@
       "category": "Data platforms",
       "status": "active",
       "created_at": "2018-12-25T07:38:25Z",
-      "pushed_at": "2026-11-07T12:52:11Z",
+      "pushed_at": "2026-11-08T12:14:03Z",
       "last_commit": {
-        "date": "2026-11-07T12:50:08Z"
+        "date": "2026-11-08T12:13:53Z"
+      }
+    },
+    {
+      "name": "ai-prism",
+      "url": "https://github.com/rixonmathew/ai-prism",
+      "private": true,
+      "fork": false,
+      "language": "MDX",
+      "topics": [],
+      "homepage": null,
+      "summary": "AI Prism breaks down the complex AI landscape into a clear, assessable spectrum. An educational guide and independent directory mapping out every layer of the modern AI stack and its tools.",
+      "category": "Sites & writing",
+      "status": "active",
+      "created_at": "2026-07-25T04:56:14Z",
+      "pushed_at": "2026-11-08T10:48:31Z",
+      "last_commit": {
+        "date": "2026-11-08T10:48:31Z"
+      }
+    },
+    {
+      "name": "rixonmathew.com",
+      "url": "https://github.com/rixonmathew/rixonmathew.com",
+      "private": true,
+      "fork": false,
+      "language": "MDX",
+      "topics": [],
+      "homepage": null,
+      "summary": "Personal site — distributed data platforms, AI engineering, computer science, music as computation. Astro, deployed to Cloudflare.",
+      "category": "Sites & writing",
+      "status": "active",
+      "created_at": "2026-09-05T14:52:02Z",
+      "pushed_at": "2026-11-08T08:39:27Z",
+      "last_commit": {
+        "date": "2026-11-01T03:48:19Z"
       }
     },
     {
@@ -34,40 +68,6 @@
       "pushed_at": "2026-11-07T11:46:29Z",
       "last_commit": {
         "date": "2026-11-07T11:46:26Z"
-      }
-    },
-    {
-      "name": "ai-prism",
-      "url": "https://github.com/rixonmathew/ai-prism",
-      "private": true,
-      "fork": false,
-      "language": "MDX",
-      "topics": [],
-      "homepage": null,
-      "summary": "AI Prism breaks down the complex AI landscape into a clear, assessable spectrum. An educational guide and independent directory mapping out every layer of the modern AI stack and its tools.",
-      "category": "Sites & writing",
-      "status": "active",
-      "created_at": "2026-07-25T04:56:14Z",
-      "pushed_at": "2026-11-07T10:44:29Z",
-      "last_commit": {
-        "date": "2026-11-07T10:44:28Z"
-      }
-    },
-    {
-      "name": "rixonmathew.com",
-      "url": "https://github.com/rixonmathew/rixonmathew.com",
-      "private": true,
-      "fork": false,
-      "language": "MDX",
-      "topics": [],
-      "homepage": null,
-      "summary": "Personal site — distributed data platforms, AI engineering, computer science, music as computation. Astro, deployed to Cloudflare.",
-      "category": "Sites & writing",
-      "status": "active",
-      "created_at": "2026-09-05T14:52:02Z",
-      "pushed_at": "2026-11-07T08:39:11Z",
-      "last_commit": {
-        "date": "2026-11-01T03:48:19Z"
       }
     },
     {
