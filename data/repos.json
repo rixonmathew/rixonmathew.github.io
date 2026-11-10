@@ -1,6 +1,6 @@
 {
   "owner": "rixonmathew",
-  "generated_at": "2026-11-09T16:29:27+00:00",
+  "generated_at": "2026-11-10T14:57:52+00:00",
   "repos": [
     {
       "name": "ai-prism",
@@ -14,9 +14,26 @@
       "category": "Sites & writing",
       "status": "active",
       "created_at": "2026-07-25T04:56:14Z",
-      "pushed_at": "2026-11-09T12:09:20Z",
+      "pushed_at": "2026-11-10T11:47:31Z",
       "last_commit": {
-        "date": "2026-11-09T12:09:19Z"
+        "date": "2026-11-10T11:47:30Z"
+      }
+    },
+    {
+      "name": "rixp330_services",
+      "url": "https://github.com/rixonmathew/rixp330_services",
+      "private": true,
+      "fork": false,
+      "language": "Shell",
+      "topics": [],
+      "homepage": null,
+      "summary": "Bash-driven lifecycle manager (svcctl) that installs, upgrades, validates and rolls back native systemd data services like Trino, Flink, Spark, Kafka and MinIO on local VMs.",
+      "category": "Infra & ops",
+      "status": "active",
+      "created_at": "2026-08-29T16:40:14Z",
+      "pushed_at": "2026-11-10T10:28:55Z",
+      "last_commit": {
+        "date": "2026-11-10T10:28:54Z"
       }
     },
     {
@@ -31,7 +48,7 @@
       "category": "Sites & writing",
       "status": "active",
       "created_at": "2026-09-05T14:52:02Z",
-      "pushed_at": "2026-11-09T08:41:37Z",
+      "pushed_at": "2026-11-10T08:41:19Z",
       "last_commit": {
         "date": "2026-11-01T03:48:19Z"
       }
@@ -68,23 +85,6 @@
       "pushed_at": "2026-11-07T11:46:29Z",
       "last_commit": {
         "date": "2026-11-07T11:46:26Z"
-      }
-    },
-    {
-      "name": "rixp330_services",
-      "url": "https://github.com/rixonmathew/rixp330_services",
-      "private": true,
-      "fork": false,
-      "language": "Shell",
-      "topics": [],
-      "homepage": null,
-      "summary": "Bash-driven lifecycle manager (svcctl) that installs, upgrades, validates and rolls back native systemd data services like Trino, Flink, Spark, Kafka and MinIO on local VMs.",
-      "category": "Infra & ops",
-      "status": "active",
-      "created_at": "2026-08-29T16:40:14Z",
-      "pushed_at": "2026-11-07T03:51:02Z",
-      "last_commit": {
-        "date": "2026-11-07T03:51:01Z"
       }
     },
     {
@@ -321,7 +321,7 @@
       "homepage": null,
       "summary": "Portfolio plan: 12+ App Store apps live by Dec 2027",
       "category": "Apps",
-      "status": "active",
+      "status": "cooling",
       "created_at": "2026-10-10T01:48:58Z",
       "pushed_at": "2026-10-10T03:40:38Z",
       "last_commit": {
