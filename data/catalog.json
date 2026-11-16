@@ -43,6 +43,10 @@
     "category": "Data platforms",
     "readme_sha": "f9fd351ea284c19dc67fe5b5e58e3a3febab26ef"
   },
+  "aws-emulator": {
+    "category": "AI & agents",
+    "readme_sha": "a7e270a8b8da0a211639fb96a255e11dccd2525b"
+  },
   "aws_tryouts": {
     "category": "Infra & ops",
     "readme_sha": "5ac5570109366dea2d1ee7d96572804be08d1751"
