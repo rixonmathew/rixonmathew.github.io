@@ -51,6 +51,10 @@
     "category": "Infra & ops",
     "readme_sha": "5ac5570109366dea2d1ee7d96572804be08d1751"
   },
+  "azure-emulator": {
+    "category": "Infra & ops",
+    "readme_sha": "413ac3ff7a9bf94bb3aa1cc08f93053745cd5f09"
+  },
   "camunda-tryouts": {
     "category": "AI & agents",
     "readme_sha": "4e9fc26e96a36b6efa306b9a35a493ecfa75b2d7"
@@ -83,6 +87,10 @@
     "category": "Infra & ops",
     "summary": "Archived: 2024 Java egress API gateway design. Revive thread \"gateway\" was declined on 2026-09-23; kept read-only.",
     "readme_sha": "1194a8589cfd20e2da0bb1f9e11f2606ae078b35"
+  },
+  "gcp-emulator": {
+    "category": "Infra & ops",
+    "readme_sha": "6db1b45454c00b9b7d63a600254612249f909c11"
   },
   "graphify-tryouts": {
     "category": "AI & agents",
