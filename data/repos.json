@@ -1,6 +1,6 @@
 {
   "owner": "rixonmathew",
-  "generated_at": "2026-11-19T15:50:07+00:00",
+  "generated_at": "2026-11-20T15:32:16+00:00",
   "repos": [
     {
       "name": "ai-prism",
@@ -14,9 +14,9 @@
       "category": "Sites & writing",
       "status": "active",
       "created_at": "2026-07-25T04:56:14Z",
-      "pushed_at": "2026-11-19T12:10:33Z",
+      "pushed_at": "2026-11-20T12:15:57Z",
       "last_commit": {
-        "date": "2026-11-19T12:10:32Z"
+        "date": "2026-11-20T12:15:56Z"
       }
     },
     {
@@ -31,7 +31,7 @@
       "category": "Sites & writing",
       "status": "active",
       "created_at": "2026-09-05T14:52:02Z",
-      "pushed_at": "2026-11-19T08:39:07Z",
+      "pushed_at": "2026-11-20T08:39:01Z",
       "last_commit": {
         "date": "2026-11-01T03:48:19Z"
       }
@@ -321,7 +321,7 @@
       "homepage": null,
       "summary": "OpenSubstrate: standards-based lakehouse (Iceberg, Nessie, DuckDB, Flight SQL) with multi-tenant ontology, ReBAC and an MCP server.",
       "category": "Data platforms",
-      "status": "active",
+      "status": "cooling",
       "created_at": "2026-10-01T12:13:55Z",
       "pushed_at": "2026-10-20T05:10:19Z",
       "last_commit": {
