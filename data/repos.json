@@ -1,22 +1,22 @@
 {
   "owner": "rixonmathew",
-  "generated_at": "2026-11-21T14:43:56+00:00",
+  "generated_at": "2026-11-22T14:39:33+00:00",
   "repos": [
     {
       "name": "ai-prism",
       "url": "https://github.com/rixonmathew/ai-prism",
       "private": true,
       "fork": false,
-      "language": "MDX",
+      "language": "HTML",
       "topics": [],
       "homepage": null,
       "summary": "AI Prism breaks down the complex AI landscape into a clear, assessable spectrum. An educational guide and independent directory mapping out every layer of the modern AI stack and its tools.",
       "category": "Sites & writing",
       "status": "active",
       "created_at": "2026-07-25T04:56:14Z",
-      "pushed_at": "2026-11-21T11:46:47Z",
+      "pushed_at": "2026-11-22T14:27:01Z",
       "last_commit": {
-        "date": "2026-11-21T11:46:47Z"
+        "date": "2026-11-22T14:26:44Z"
       }
     },
     {
@@ -31,9 +31,26 @@
       "category": "Sites & writing",
       "status": "active",
       "created_at": "2026-09-05T14:52:02Z",
-      "pushed_at": "2026-11-21T08:39:16Z",
+      "pushed_at": "2026-11-22T08:38:33Z",
       "last_commit": {
         "date": "2026-11-01T03:48:19Z"
+      }
+    },
+    {
+      "name": "rixp330_services",
+      "url": "https://github.com/rixonmathew/rixp330_services",
+      "private": true,
+      "fork": false,
+      "language": "Shell",
+      "topics": [],
+      "homepage": null,
+      "summary": "Bash-driven lifecycle manager (svcctl) that installs, upgrades, validates and rolls back native systemd data services like Trino, Flink, Spark, Kafka and MinIO on local VMs.",
+      "category": "Infra & ops",
+      "status": "active",
+      "created_at": "2026-08-29T16:40:14Z",
+      "pushed_at": "2026-11-22T06:16:24Z",
+      "last_commit": {
+        "date": "2026-11-22T06:16:23Z"
       }
     },
     {
@@ -102,23 +119,6 @@
       "pushed_at": "2026-11-12T21:36:02Z",
       "last_commit": {
         "date": "2026-11-12T21:35:57Z"
-      }
-    },
-    {
-      "name": "rixp330_services",
-      "url": "https://github.com/rixonmathew/rixp330_services",
-      "private": true,
-      "fork": false,
-      "language": "Shell",
-      "topics": [],
-      "homepage": null,
-      "summary": "Bash-driven lifecycle manager (svcctl) that installs, upgrades, validates and rolls back native systemd data services like Trino, Flink, Spark, Kafka and MinIO on local VMs.",
-      "category": "Infra & ops",
-      "status": "active",
-      "created_at": "2026-08-29T16:40:14Z",
-      "pushed_at": "2026-11-10T10:28:55Z",
-      "last_commit": {
-        "date": "2026-11-10T10:28:54Z"
       }
     },
     {
