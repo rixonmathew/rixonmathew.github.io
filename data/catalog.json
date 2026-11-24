@@ -185,6 +185,10 @@
     "readme_sha": null,
     "written_description": "Project Samson: clean-start Go platform for governed, enterprise-grade agent execution, with an AWS Fargate pilot deployment."
   },
+  "rix-harness": {
+    "category": "AI & agents",
+    "readme_sha": "2094ec003c5691de5717c2e8fbe1e3f3bd922038"
+  },
   "rixmath-dataplatform": {
     "category": "Data platforms",
     "readme_sha": "07989d4dc0c970c662eee80597033878d18e21df"

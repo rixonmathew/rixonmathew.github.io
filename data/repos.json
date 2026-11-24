@@ -1,7 +1,24 @@
 {
   "owner": "rixonmathew",
-  "generated_at": "2026-11-23T18:18:48+00:00",
+  "generated_at": "2026-11-24T17:51:53+00:00",
   "repos": [
+    {
+      "name": "rix-harness",
+      "url": "https://github.com/rixonmathew/rix-harness",
+      "private": true,
+      "fork": false,
+      "language": "Rust",
+      "topics": [],
+      "homepage": null,
+      "summary": "Personal unified native Rust desktop app and CLI for Claude, Codex, AntiGravity, OMP, and LLM gateways",
+      "category": "AI & agents",
+      "status": "active",
+      "created_at": "2026-11-24T14:46:06Z",
+      "pushed_at": "2026-11-24T17:41:20Z",
+      "last_commit": {
+        "date": "2026-11-24T17:41:17Z"
+      }
+    },
     {
       "name": "ai-prism",
       "url": "https://github.com/rixonmathew/ai-prism",
@@ -14,9 +31,9 @@
       "category": "Sites & writing",
       "status": "active",
       "created_at": "2026-07-25T04:56:14Z",
-      "pushed_at": "2026-11-23T13:45:20Z",
+      "pushed_at": "2026-11-24T14:21:18Z",
       "last_commit": {
-        "date": "2026-11-23T13:45:19Z"
+        "date": "2026-11-24T14:21:17Z"
       }
     },
     {
@@ -31,7 +48,7 @@
       "category": "Sites & writing",
       "status": "active",
       "created_at": "2026-09-05T14:52:02Z",
-      "pushed_at": "2026-11-23T08:38:57Z",
+      "pushed_at": "2026-11-24T08:39:13Z",
       "last_commit": {
         "date": "2026-11-01T03:48:19Z"
       }
@@ -304,7 +321,7 @@
       "homepage": null,
       "summary": "Interactive Graphify Mastery Academy & Agentic Knowledge Graph Workbench (https://app.graphify.com/rix-kg)",
       "category": "AI & agents",
-      "status": "active",
+      "status": "cooling",
       "created_at": "2026-10-17T12:56:50Z",
       "pushed_at": "2026-10-24T04:50:53Z",
       "last_commit": {
