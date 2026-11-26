@@ -1,6 +1,6 @@
 {
   "owner": "rixonmathew",
-  "generated_at": "2026-11-25T17:18:33+00:00",
+  "generated_at": "2026-11-26T16:58:52+00:00",
   "repos": [
     {
       "name": "rix-harness",
@@ -14,9 +14,9 @@
       "category": "AI & agents",
       "status": "active",
       "created_at": "2026-11-24T14:46:06Z",
-      "pushed_at": "2026-11-25T15:53:51Z",
+      "pushed_at": "2026-11-26T13:34:59Z",
       "last_commit": {
-        "date": "2026-11-25T15:53:22Z"
+        "date": "2026-11-26T13:34:50Z"
       }
     },
     {
@@ -31,26 +31,9 @@
       "category": "Sites & writing",
       "status": "active",
       "created_at": "2026-07-25T04:56:14Z",
-      "pushed_at": "2026-11-25T13:32:31Z",
+      "pushed_at": "2026-11-26T13:13:29Z",
       "last_commit": {
-        "date": "2026-11-25T13:32:30Z"
-      }
-    },
-    {
-      "name": "rixonmathew.com",
-      "url": "https://github.com/rixonmathew/rixonmathew.com",
-      "private": true,
-      "fork": false,
-      "language": "MDX",
-      "topics": [],
-      "homepage": null,
-      "summary": "Personal site — distributed data platforms, AI engineering, computer science, music as computation. Astro, deployed to Cloudflare.",
-      "category": "Sites & writing",
-      "status": "active",
-      "created_at": "2026-09-05T14:52:02Z",
-      "pushed_at": "2026-11-25T08:40:07Z",
-      "last_commit": {
-        "date": "2026-11-01T03:48:19Z"
+        "date": "2026-11-26T13:13:28Z"
       }
     },
     {
@@ -65,9 +48,26 @@
       "category": "Infra & ops",
       "status": "active",
       "created_at": "2026-08-29T16:40:14Z",
-      "pushed_at": "2026-11-22T06:16:24Z",
+      "pushed_at": "2026-11-26T12:04:22Z",
       "last_commit": {
-        "date": "2026-11-22T06:16:23Z"
+        "date": "2026-11-26T12:04:20Z"
+      }
+    },
+    {
+      "name": "rixonmathew.com",
+      "url": "https://github.com/rixonmathew/rixonmathew.com",
+      "private": true,
+      "fork": false,
+      "language": "MDX",
+      "topics": [],
+      "homepage": null,
+      "summary": "Personal site — distributed data platforms, AI engineering, computer science, music as computation. Astro, deployed to Cloudflare.",
+      "category": "Sites & writing",
+      "status": "active",
+      "created_at": "2026-09-05T14:52:02Z",
+      "pushed_at": "2026-11-26T08:39:12Z",
+      "last_commit": {
+        "date": "2026-11-01T03:48:19Z"
       }
     },
     {
@@ -287,7 +287,7 @@
       "homepage": null,
       "summary": "Interactive workbench, live local Kubernetes (v1.37.1) & GKE lab runner, and deep-dive documentation for Agent Substrate",
       "category": "AI & agents",
-      "status": "active",
+      "status": "cooling",
       "created_at": "2026-10-26T12:07:46Z",
       "pushed_at": "2026-10-26T16:50:47Z",
       "last_commit": {
@@ -304,7 +304,7 @@
       "homepage": null,
       "summary": "NexusFactory: agent-agnostic software factory that runs AI agents across an 8-stage SDLC, with simulated tracker, chat, git and environments.",
       "category": "AI & agents",
-      "status": "active",
+      "status": "cooling",
       "created_at": "2026-10-24T04:48:20Z",
       "pushed_at": "2026-10-26T09:42:37Z",
       "last_commit": {
