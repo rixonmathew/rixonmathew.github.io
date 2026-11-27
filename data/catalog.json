@@ -113,7 +113,7 @@
   },
   "k8s-cluster": {
     "category": "Infra & ops",
-    "readme_sha": "8a4f5248cea1d31087f69c0060baba05c7861b66"
+    "readme_sha": "62e625e0d5c50bdbeb2ec46036e765ebd5bfb08b"
   },
   "kafka-supervisor": {
     "category": "Data platforms",
@@ -199,9 +199,9 @@
   },
   "rixp330_services": {
     "category": "Infra & ops",
-    "summary": "Bash-driven lifecycle manager (svcctl) that installs, upgrades, validates and rolls back native systemd data services like Trino, Flink, Spark, Kafka and MinIO on local VMs.",
-    "readme_sha": "937c5c2d0dd59b10bfc94f5e0bf3cf32054b04ec",
-    "written_description": "Bash-driven lifecycle manager (svcctl) that installs, upgrades, validates and rolls back native systemd data services like Trino, Flink, Spark, Kafka and MinIO on local VMs."
+    "summary": "Bash-driven lifecycle tool (svcctl) that installs, configures, upgrades and validates native systemd data services like Trino, Flink, Spark and Kafka on local VMs.",
+    "readme_sha": "5691d58023ddc1ebfe62a70d6775621ecdd6175d",
+    "written_description": "Bash-driven lifecycle tool (svcctl) that installs, configures, upgrades and validates native systemd data services like Trino, Flink, Spark and Kafka on local VMs."
   },
   "runecast": {
     "category": "AI & agents",

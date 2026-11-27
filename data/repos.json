@@ -1,7 +1,75 @@
 {
   "owner": "rixonmathew",
-  "generated_at": "2026-11-26T16:58:52+00:00",
+  "generated_at": "2026-11-27T16:44:39+00:00",
   "repos": [
+    {
+      "name": "rixp330_services",
+      "url": "https://github.com/rixonmathew/rixp330_services",
+      "private": true,
+      "fork": false,
+      "language": "Shell",
+      "topics": [],
+      "homepage": null,
+      "summary": "Bash-driven lifecycle tool (svcctl) that installs, configures, upgrades and validates native systemd data services like Trino, Flink, Spark and Kafka on local VMs.",
+      "category": "Infra & ops",
+      "status": "active",
+      "created_at": "2026-08-29T16:40:14Z",
+      "pushed_at": "2026-11-27T14:11:19Z",
+      "last_commit": {
+        "date": "2026-11-27T14:11:17Z"
+      }
+    },
+    {
+      "name": "k8s-cluster",
+      "url": "https://github.com/rixonmathew/k8s-cluster",
+      "private": true,
+      "fork": false,
+      "language": "Shell",
+      "topics": [],
+      "homepage": null,
+      "summary": "Automated kubeadm maintenance for the rixp330 (amd64) and Raspberry Pi (arm64) Kubernetes clusters",
+      "category": "Infra & ops",
+      "status": "active",
+      "created_at": "2026-08-29T12:40:52Z",
+      "pushed_at": "2026-11-27T14:11:17Z",
+      "last_commit": {
+        "date": "2026-11-27T14:11:15Z"
+      }
+    },
+    {
+      "name": "ai-prism",
+      "url": "https://github.com/rixonmathew/ai-prism",
+      "private": true,
+      "fork": false,
+      "language": "HTML",
+      "topics": [],
+      "homepage": null,
+      "summary": "AI Prism breaks down the complex AI landscape into a clear, assessable spectrum. An educational guide and independent directory mapping out every layer of the modern AI stack and its tools.",
+      "category": "Sites & writing",
+      "status": "active",
+      "created_at": "2026-07-25T04:56:14Z",
+      "pushed_at": "2026-11-27T13:08:51Z",
+      "last_commit": {
+        "date": "2026-11-27T13:08:50Z"
+      }
+    },
+    {
+      "name": "rixonmathew.com",
+      "url": "https://github.com/rixonmathew/rixonmathew.com",
+      "private": true,
+      "fork": false,
+      "language": "MDX",
+      "topics": [],
+      "homepage": null,
+      "summary": "Personal site — distributed data platforms, AI engineering, computer science, music as computation. Astro, deployed to Cloudflare.",
+      "category": "Sites & writing",
+      "status": "active",
+      "created_at": "2026-09-05T14:52:02Z",
+      "pushed_at": "2026-11-27T08:39:58Z",
+      "last_commit": {
+        "date": "2026-11-01T03:48:19Z"
+      }
+    },
     {
       "name": "rix-harness",
       "url": "https://github.com/rixonmathew/rix-harness",
@@ -17,57 +85,6 @@
       "pushed_at": "2026-11-26T13:34:59Z",
       "last_commit": {
         "date": "2026-11-26T13:34:50Z"
-      }
-    },
-    {
-      "name": "ai-prism",
-      "url": "https://github.com/rixonmathew/ai-prism",
-      "private": true,
-      "fork": false,
-      "language": "HTML",
-      "topics": [],
-      "homepage": null,
-      "summary": "AI Prism breaks down the complex AI landscape into a clear, assessable spectrum. An educational guide and independent directory mapping out every layer of the modern AI stack and its tools.",
-      "category": "Sites & writing",
-      "status": "active",
-      "created_at": "2026-07-25T04:56:14Z",
-      "pushed_at": "2026-11-26T13:13:29Z",
-      "last_commit": {
-        "date": "2026-11-26T13:13:28Z"
-      }
-    },
-    {
-      "name": "rixp330_services",
-      "url": "https://github.com/rixonmathew/rixp330_services",
-      "private": true,
-      "fork": false,
-      "language": "Shell",
-      "topics": [],
-      "homepage": null,
-      "summary": "Bash-driven lifecycle manager (svcctl) that installs, upgrades, validates and rolls back native systemd data services like Trino, Flink, Spark, Kafka and MinIO on local VMs.",
-      "category": "Infra & ops",
-      "status": "active",
-      "created_at": "2026-08-29T16:40:14Z",
-      "pushed_at": "2026-11-26T12:04:22Z",
-      "last_commit": {
-        "date": "2026-11-26T12:04:20Z"
-      }
-    },
-    {
-      "name": "rixonmathew.com",
-      "url": "https://github.com/rixonmathew/rixonmathew.com",
-      "private": true,
-      "fork": false,
-      "language": "MDX",
-      "topics": [],
-      "homepage": null,
-      "summary": "Personal site — distributed data platforms, AI engineering, computer science, music as computation. Astro, deployed to Cloudflare.",
-      "category": "Sites & writing",
-      "status": "active",
-      "created_at": "2026-09-05T14:52:02Z",
-      "pushed_at": "2026-11-26T08:39:12Z",
-      "last_commit": {
-        "date": "2026-11-01T03:48:19Z"
       }
     },
     {
@@ -244,23 +261,6 @@
       }
     },
     {
-      "name": "k8s-cluster",
-      "url": "https://github.com/rixonmathew/k8s-cluster",
-      "private": true,
-      "fork": false,
-      "language": "Shell",
-      "topics": [],
-      "homepage": null,
-      "summary": "Automated kubeadm maintenance for the rixp330 (amd64) and Raspberry Pi (arm64) Kubernetes clusters",
-      "category": "Infra & ops",
-      "status": "active",
-      "created_at": "2026-08-29T12:40:52Z",
-      "pushed_at": "2026-10-29T13:42:52Z",
-      "last_commit": {
-        "date": "2026-10-29T11:05:02Z"
-      }
-    },
-    {
       "name": "runecast",
       "url": "https://github.com/rixonmathew/runecast",
       "private": true,
@@ -270,7 +270,7 @@
       "homepage": null,
       "summary": "RuneCast POC: an LLM writes data-task code grounded in a knowledge graph; a human approves it before a deterministic deploy.",
       "category": "AI & agents",
-      "status": "active",
+      "status": "cooling",
       "created_at": "2026-09-23T01:16:44Z",
       "pushed_at": "2026-10-27T04:55:50Z",
       "last_commit": {
